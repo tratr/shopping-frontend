@@ -32,10 +32,12 @@ export default function CategoryComponent() {
         {loading && <div>Loading</div>}
         {!loading && (
           <div>
-            <h2>Doing stuff with data</h2>
-            {data.map((item) => (
-              <span>{item.name}</span>
-            ))}
+            <h2>Category</h2>
+            <ul>
+              {data.map((item) => (
+                <li>{item.name}</li>
+              ))}
+            </ul>
           </div>
         )}
       </div>

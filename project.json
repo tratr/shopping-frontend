@@ -25,7 +25,7 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "shopping-frontend:build",
-        "proxyConfig": "proxy.config.json"
+        "proxyConfig": "src/proxy.config.json"
       },
       "configurations": {
         "development": {

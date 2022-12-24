@@ -24,7 +24,8 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "shopping-frontend:build"
+        "buildTarget": "shopping-frontend:build",
+        "proxyConfig": "src/proxy.config.json"
       },
       "configurations": {
         "development": {

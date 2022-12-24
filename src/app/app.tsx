@@ -1,11 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
-import Category from './category/category';
+import CategoryComponent from './category/CategoryComponent';
 
 export function App() {
   return (
     <>
-      <Category />
+      <CategoryComponent />
       <div />
     </>
   );
